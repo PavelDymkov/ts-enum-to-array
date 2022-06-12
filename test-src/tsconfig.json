@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "outDir": "../test",
+        "rootDir": ".",
+        "strict": true,
+        "target": "ES2020"
+    }
+}

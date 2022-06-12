@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "CommonJS",
+        "strict": true
+    },
+
+    "include": ["src"],
+    "exclude": ["npm-packagr.ts"]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "ts-enum-to-array",
+    "version": "1.0.0",
+    "description": "",
+    "author": {
+        "name": "Pavel Dymkov",
+        "email": "dymkov86@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PavelDymkov/ts-enum-to-array.git"
+    },
+    "keywords": [
+        "typescript",
+        "enum"
+    ],
+    "license": "ISC",
+    "homepage": "https://github.com/PavelDymkov/ts-enum-to-array#readme",
+    "bugs": {
+        "url": "https://github.com/PavelDymkov/ts-enum-to-array/issues"
+    },
+    "scripts": {
+        "prepublishOnly": "exit 1",
+        "pretest": "tsc --project test-src/tsconfig.json",
+        "pub": "packagr",
+        "test": "jest --roots test"
+    },
+    "devDependencies": {
+        "@types/jest": "^28.1.1",
+        "jest": "^28.1.1",
+        "npm-packagr": "^1.0.41",
+        "prettier": "^2.6.2",
+        "typescript": "^4.7.3"
+    }
+}
