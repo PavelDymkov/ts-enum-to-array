@@ -36,7 +36,7 @@ npmPackagr({
 
         assets("LICENSE", "README.md"),
 
-        // increaseVersion(),
+        increaseVersion(),
 
         packageJSON((packageJson) => {
             delete packageJson.scripts;
